@@ -1,0 +1,39 @@
+/* Login.css */
+.login-container {
+    margin-top: 50px;
+  }
+  
+  .login-card {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .login-card h3 {
+    color: #333;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .social-login-buttons button {
+    font-size: 0.9rem;
+  }
+  
+  .btn-block {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
