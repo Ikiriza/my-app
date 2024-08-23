@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Responsive Login Screen in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a responsive login screen built using React, Formik, and Bootstrap. The screen includes a username and password field, a "Remember Me" checkbox, social login buttons (Google, Facebook), and a "Forgot Password?" link. The project also implements form validation using Formik and Yup.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+Features
+Technologies Used
+Installation
+Running the Project
+Project Structure
+Customization
+Known Issues
+Contributing
+License
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: The login screen is designed to be responsive across different screen sizes.
+Form Validation: Validation for username and password fields is handled using Formik and Yup.
+"Remember Me" Checkbox: Allows users to opt to save their login information.
+Social Login Buttons: Includes placeholders for Google and Facebook login.
+Forgot Password: Provides a link for users to reset their password.
+Styled Components: Uses Bootstrap for styling and custom CSS for additional design enhancements.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
+React: A JavaScript library for building user interfaces.
+Formik: A library for building and validating forms in React.
+Yup: A JavaScript schema builder for value parsing and validation.
+Bootstrap: A CSS framework for responsive design.
+React-Bootstrap: Bootstrap components built with React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Customization
+Updating Styles
 
-### `npm run build`
+Bootstrap Classes: You can modify the layout and design using additional Bootstrap classes. Refer to the Bootstrap documentation for more details.
+Custom CSS: Add or modify styles in Login.css to adjust the design to your liking.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
